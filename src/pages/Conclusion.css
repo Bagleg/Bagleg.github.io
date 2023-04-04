@@ -1,0 +1,54 @@
+html,
+body {
+  height: 100%;
+}
+
+.conclusion-grid{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "navbar"
+    "body"
+    "image"
+    "sources";
+    height: 100%;
+    background-color: rgb(235, 231, 231);
+}
+
+.conclusion-header{
+    grid-area: header;
+    background-color: rgb(135, 113, 153);
+    color: white;
+}
+
+.conclusion-navbar{
+    grid-area: navbar;
+}
+
+.conclusion-image{
+    grid-area: image;
+    margin-top: 10px;
+}
+
+.conclusion-body{
+    grid-area: body;
+    text-align: left;
+    margin-left: 225px;
+    margin-right: 225px;
+    font-size: 1.3em;
+    border-bottom: 1px grey solid;
+}
+
+.conclusion-sources{
+    border-top: 1px solid grey;
+    margin-top: 10px;
+    grid-area: sources;
+    margin-left: 225px;
+    margin-right: 225px;
+    text-align: left;
+}
+
+.blue{
+    text-decoration: underline;
+    color:blue;
+}

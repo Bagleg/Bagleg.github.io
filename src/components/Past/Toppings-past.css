@@ -1,0 +1,28 @@
+.toppings-grid{
+    margin-top: 25px;
+    display: grid;
+    grid-template-areas: 
+    "image-one text-one"
+    "text-two text-two";
+}
+
+.toppings-text-one{
+    grid-area: text-one;
+    margin-left:20px;
+    margin-right:25px;
+    padding-left: 5px;
+    border-left: 1px grey solid;
+}
+
+.toppings-image-one{
+    grid-area: image-one;
+    margin-left:25px;
+    margin-right:25px;
+}
+
+.toppings-text-two{
+    grid-area: text-two;
+    margin-left:25px;
+    margin-right:25px;
+    margin-top: 25px;
+}

@@ -1,0 +1,106 @@
+.research-grid{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "navbar navbar"
+    "surveyq survey1"
+    "survey2 survey2"
+    "dataq data"
+    "organized bar"
+    "organized-text bar-text"
+    "siteq site";
+    height: 100vw;
+    background-color: rgb(235, 231, 231);
+}
+
+.research-header{
+    grid-area: header;
+    background-color: rgb(135, 113, 153);
+    color: white;   
+}
+
+.research-navbar{
+    grid-area: navbar;
+}
+
+.survey-q{
+    grid-area: surveyq;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    border-right: solid grey 1px;
+}
+
+.research-survey1{
+    grid-area: survey1;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 200px;
+}
+
+.research-survey2{
+    grid-area: survey2;
+    text-align: left;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.research-data-q{
+    grid-area: dataq;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    border-right: solid grey 1px;
+}
+
+.research-data1{
+    grid-area: data;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 200px;
+}
+.spacer{
+    grid-area: spacer;
+}
+.organized{
+    grid-area: organized;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.organized-text{
+    grid-area: organized-text;
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.bar{
+    grid-area: bar;
+}
+
+.bar-text{
+    grid-area: bar-text;
+    text-align: left;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.research-site-q{
+    grid-area: siteq;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    border-right: solid grey 1px;
+}
+
+.research-site{
+    grid-area: site;
+    text-align: left;
+    margin-right: 200px;
+    margin-left: 10px;
+}
