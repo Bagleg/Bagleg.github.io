@@ -18,6 +18,9 @@
     grid-area: image-one;
     margin-left:25px;
     margin-right:25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .regional-text-two{

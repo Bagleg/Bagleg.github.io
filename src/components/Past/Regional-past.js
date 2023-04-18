@@ -32,7 +32,7 @@ export default function Regional() {
 
         </div>
         <div className='regional-image-one'>
-            <img src={require('./images-past/regionalPizzaStyle.png')}></img>
+            <img src={require('./images-past/regionalPizzaStyle_70.png')}></img>
         </div>
         <div className='regional-text-two'>
         While toppings may be a boring field for already existing regional data, the 

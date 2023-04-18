@@ -4,7 +4,7 @@
     "header header"
     "navbar navbar"
     "image body";
-    background-color: rgb(235, 231, 231);
+    /* background-color: rgb(235, 231, 231); */
     height: 100vh;
     grid-template-rows: min-content min-content 1fr;
 }

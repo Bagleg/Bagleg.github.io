@@ -10,7 +10,7 @@
     "organized-text bar-text"
     "siteq site";
     height: 100vw;
-    background-color: rgb(235, 231, 231);
+    /* background-color: rgb(235, 231, 231); */
 }
 
 .research-header{
@@ -53,6 +53,8 @@
     align-items: center;
     font-size: 2em;
     border-right: solid grey 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .research-data1{
@@ -60,6 +62,8 @@
     text-align: left;
     margin-left: 10px;
     margin-right: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .spacer{
     grid-area: spacer;
@@ -87,6 +91,7 @@
     text-align: left;
     margin-right: 200px;
     margin-left: 200px;
+    
 }
 
 .research-site-q{
@@ -96,11 +101,13 @@
     align-items: center;
     font-size: 2em;
     border-right: solid grey 1px;
+    margin-top: 10px;
 }
 
 .research-site{
     grid-area: site;
     text-align: left;
+    margin-top: 10px;
     margin-right: 200px;
     margin-left: 10px;
 }
