@@ -9,7 +9,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="Bagleg.github.io/">
         <Switch>
           <Route exact path='/'>
             <Homepage />
