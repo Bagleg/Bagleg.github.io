@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c08f479.css",
-    "main.js": "/static/js/main.957d2dfc.js",
+    "main.css": "/static/css/main.386758ed.css",
+    "main.js": "/static/js/main.8cda99c2.js",
     "static/js/787.5e253449.chunk.js": "/static/js/787.5e253449.chunk.js",
-    "static/media/NY.jpg": "/static/media/NY.4f68d6be4b377cd3d24e.jpg",
-    "static/media/regionalPizzaStyle.png": "/static/media/regionalPizzaStyle.54c5129eefa0549735dc.png",
+    "static/media/NY_50.jpg": "/static/media/NY_50.0f48c3c60b72a03ad9f2.jpg",
     "static/media/making-bar-charts.png": "/static/media/making-bar-charts.e0d2e8427586127674e7.png",
     "static/media/topToppings.png": "/static/media/topToppings.b6c4be371a74996879b4.png",
+    "static/media/regionalPizzaStyle_70.png": "/static/media/regionalPizzaStyle_70.e632c0b76596caecd738.png",
     "static/media/reorganizing-data.png": "/static/media/reorganizing-data.a31118bd458e1ba784d1.png",
     "static/media/Pepperoni_pizza-resized.jpg": "/static/media/Pepperoni_pizza-resized.3919d3ea317cd4371277.jpg",
     "static/media/margherita-pizza-sliced-food-italian.jpg": "/static/media/margherita-pizza-sliced-food-italian.dc0bb0b8538b3d77349a.jpg",
@@ -14,12 +14,12 @@
     "static/media/characteristicPreference.png": "/static/media/characteristicPreference.8bfbd8c30db8a4aafd2f.png",
     "static/media/qualityValues.png": "/static/media/qualityValues.4ef87392126dd6907a6c.png",
     "index.html": "/index.html",
-    "main.0c08f479.css.map": "/static/css/main.0c08f479.css.map",
-    "main.957d2dfc.js.map": "/static/js/main.957d2dfc.js.map",
+    "main.386758ed.css.map": "/static/css/main.386758ed.css.map",
+    "main.8cda99c2.js.map": "/static/js/main.8cda99c2.js.map",
     "787.5e253449.chunk.js.map": "/static/js/787.5e253449.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c08f479.css",
-    "static/js/main.957d2dfc.js"
+    "static/css/main.386758ed.css",
+    "static/js/main.8cda99c2.js"
   ]
 }
